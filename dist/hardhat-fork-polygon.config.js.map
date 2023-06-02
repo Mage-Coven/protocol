@@ -1,0 +1,1 @@
+{"version":3,"file":"hardhat-fork-polygon.config.js","sourceRoot":"","sources":["../hardhat-fork-polygon.config.ts"],"names":[],"mappings":";;AAAA,qDAAgD;AAEhD,kBAAe;IACX,GAAG,8BAAa;IAChB,QAAQ,EAAE;QACN,GAAG,8BAAa,CAAC,QAAQ;QACzB,OAAO,EAAE;YACL,0BAA0B,EAAE,KAAK;YACjC,aAAa,EAAE,QAAQ;YACvB,OAAO,EAAE;gBACL,GAAG,EAAE,OAAO,CAAC,GAAG,CAAC,QAAQ,IAAI,iDAAiD;aACjF;SACJ;KACJ;CACJ,CAAA"}

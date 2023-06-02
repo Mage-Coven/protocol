@@ -1,0 +1,13 @@
+import { Block } from "@ethersproject/abstract-provider";
+import { BigNumberish } from "@ethersproject/bignumber";
+import { BN } from "./math";
+export declare const advanceBlock: () => Promise<void>;
+export declare const increaseTime: (length: BN | number) => Promise<void>;
+export declare const latestBlock: () => Promise<Block>;
+export declare const getTimestamp: () => Promise<BN>;
+export declare const increaseTimeTo: (target: BN | number) => Promise<void>;
+export declare const sleep: (ms: number) => Promise<void>;
+export declare const startWeek: (epochSeconds: BigNumberish) => BN;
+export declare const startCurrentWeek: () => Promise<BN>;
+export declare const weekEpoch: (epochSeconds: BigNumberish) => BN;
+export declare const currentWeekEpoch: () => Promise<BN>;

@@ -1,0 +1,11 @@
+import { Signer } from "@ethersproject/abstract-signer";
+import { HardhatRuntimeEnvironment } from "hardhat/types";
+import { BasicRewardsForwarder, BridgeForwarder, DisperseForwarder, VotiumBribeForwarder, EmissionsController, L2BridgeRecipient, L2EmissionsController, RevenueBuyBack } from "types/generated";
+export declare const deployEmissionsController: (signer: Signer, hre: HardhatRuntimeEnvironment) => Promise<EmissionsController>;
+export declare const deployBasicForwarder: (signer: Signer, emissionsControllerAddress: string, recipient: string, hre: HardhatRuntimeEnvironment, owner?: string) => Promise<BasicRewardsForwarder>;
+export declare const deployL2EmissionsController: (signer: Signer, hre: HardhatRuntimeEnvironment) => Promise<L2EmissionsController>;
+export declare const deployL2BridgeRecipients: (signer: Signer, hre: HardhatRuntimeEnvironment, l2EmissionsControllerAddress: string) => Promise<L2BridgeRecipient>;
+export declare const deployDisperseForwarder: (signer: Signer, hre: HardhatRuntimeEnvironment) => Promise<DisperseForwarder>;
+export declare const deployVotiumBribeForwarder: (signer: Signer, hre: HardhatRuntimeEnvironment) => Promise<VotiumBribeForwarder>;
+export declare const deployBridgeForwarder: (signer: Signer, hre: HardhatRuntimeEnvironment, bridgeRecipientAddress: string, _emissionsControllerAddress?: string) => Promise<BridgeForwarder>;
+export declare const deployRevenueBuyBack: (signer: Signer, hre: HardhatRuntimeEnvironment, _emissionsControllerAddress?: string) => Promise<RevenueBuyBack>;

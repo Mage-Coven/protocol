@@ -1,0 +1,30 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_token",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_proposal",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_choiceIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "depositBribe",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
